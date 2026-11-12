@@ -4,7 +4,7 @@
 |---|---|
 | 最終確認日 | 2026-11-12 |
 | 主な参照ガイドライン | [EAU NMIBC 2021 要約（Eur Urol）](https://pubmed.ncbi.nlm.nih.gov/34511303/)／EAU MIBC・転移性／EAU UTUC／NCCN Bladder／日本泌尿器科学会 膀胱癌・腎盂尿管癌診療ガイドライン |
-| ステータス | 聞き取り中（§1〜5 記入済み） |
+| ステータス | 聞き取り中（§1〜7 記入済み） |
 
 **凡例**
 - **方針**（黒字）：自分の現在のコンセンサス
@@ -106,6 +106,7 @@
 
 **方針**
 - 周術期治療：GC＋デュルバルマブ（術前 GC＋デュルバルマブ → 膀胱全摘 → 術後デュルバルマブ）
+- シスプラチン不適格例：ゲムシタビン＋カルボプラチンを検討。患者背景によっては術前化学療法なしで手術
 - EV＋ペムブロリズマブの周術期投与：国内で保険適用になれば使う可能性が高い
 
 **参考**
@@ -121,7 +122,12 @@
 > - シスプラチン適格例：[KEYNOTE-B15/EV-304](https://pubmed.ncbi.nlm.nih.gov/?term=KEYNOTE-B15+EV-304+enfortumab+vedotin+pembrolizumab+perioperative+cisplatin-eligible+muscle-invasive+bladder+cancer)。術前 GC と比べて、無イベント生存のリスクが 47%、死亡リスクが 35% 低下（報道ベース）
 > - 海外承認：米国は 2025 年 11 月にシスプラチン不適格例、2026 年 7 月にシスプラチン適格性を問わず承認。EU も 2026 年に承認（[FDA 承認の報道](https://www.pharmaceutical-tech.com/news/us-fda-approves-padcev-plus-keytruda)、[EU 承認の報道](https://www.indianpharmapost.com/news/merck-wins-eu-nod-for-keytruda-padcev-regimen-in-muscle-invasive-bladder-cancer-20743)）
 > - 注視：国内での申請・承認の動き
-> - 確認：シスプラチン不適格例に対する、現在の周術期治療の方針
+
+> [!CAUTION]
+> **Claude 提案（2026-11）：シスプラチン不適格例へのカルボプラチン併用の術前化学療法**
+> - EAU は、シスプラチン不適格例への術前化学療法（カルボプラチン併用を含む）を推奨していない。カルボプラチン併用で生存の改善を示した試験がないため
+> - 根拠：[術前化学療法のメタ解析（ABC Meta-analysis, Eur Urol 2005）](https://pubmed.ncbi.nlm.nih.gov/?term=Advanced+Bladder+Cancer+Meta-analysis+Collaboration+neoadjuvant+chemotherapy+invasive+bladder+cancer+update+Eur+Urol+2005)（効果はシスプラチン併用レジメンで示されたもの）
+> - 提案：シスプラチン不適格例は術前化学療法なしで膀胱全摘を行い、病理で高リスクならニボルマブ術後補助（§6）を行う流れを基本にする。国内で承認されれば EV＋ペムブロリズマブ周術期（KEYNOTE-905）に置き換える
 
 ## 5. MIBC：膀胱全摘・尿路変向、膀胱温存（三者併用療法）
 
@@ -145,12 +151,35 @@
 ## 6. 術後補助療法（ニボルマブ等）
 
 **方針**
-- （未記入）
+- 周術期にデュルバルマブを使った症例：術後もデュルバルマブを継続
+- ニボルマブ術後補助：術前に免疫療法を受けていない症例が対象
+
+**参考**
+- GL：EAU は、病理で高リスク（術前化学療法後に ypT2-4a または ypN+、術前化学療法なしで pT3-4a または pN+）の症例にニボルマブ術後補助を推奨
+- 根拠：[CheckMate 274（Bajorin, NEJM 2021）](https://pubmed.ncbi.nlm.nih.gov/?term=Bajorin+CheckMate+274+adjuvant+nivolumab+high-risk+muscle-invasive+urothelial+carcinoma+NEJM+2021)
+- 保険適用：オプジーボ（ニボルマブ）の「尿路上皮癌における術後補助療法」で適応あり（2022 年承認。添付文書で要確認）
 
 ## 7. 上部尿路上皮癌（腎温存、RNU、術後補助化学療法、膀胱内再発予防）
 
 **方針**
-- （未記入）
+- 腎温存治療はほとんど行っていない。EAU に準じ、リスクが非常に高い症例、または根治が期待できると判断した症例に限って尿管部分切除を行う
+- RNU 後の膀胱内単回注入：術後 5 日目に施行
+- 術後補助化学療法：可能な限り GC 療法で行う
+
+**参考**
+- GL（EAU）
+  - 低リスク UTUC（単発、<2 cm、細胞診・生検で低異型度、CT で浸潤所見なし）には、対側腎の状態にかかわらず腎温存治療（内視鏡的切除・レーザー焼灼、尿管部分切除）を第一選択として推奨
+  - RNU 後の膀胱内単回注入：術後 2〜10 日に行うことを推奨（術後 5 日目は GL と一致）
+  - 術後補助化学療法：pT2-T4 または pN+ にプラチナ併用化学療法を推奨（GL と一致）
+- 根拠
+  - 単回注入：[ODMIT-C（O'Brien, Eur Urol 2011）](https://pubmed.ncbi.nlm.nih.gov/?term=O'Brien+ODMIT-C+single+postoperative+mitomycin+C+nephroureterectomy+Eur+Urol+2011)、[ピラルビシン単回注入（Ito, J Clin Oncol 2013）](https://pubmed.ncbi.nlm.nih.gov/?term=Ito+pirarubicin+single+intravesical+instillation+nephroureterectomy+J+Clin+Oncol+2013)
+  - 術後補助化学療法：[POUT（Birtle, Lancet 2020）](https://pubmed.ncbi.nlm.nih.gov/?term=Birtle+POUT+adjuvant+chemotherapy+upper+tract+urothelial+carcinoma+Lancet+2020)
+
+> [!CAUTION]
+> **Claude 提案（2026-11）**
+> - **腎温存治療**：EAU は低リスク UTUC には内視鏡的治療（尿管鏡下のレーザー焼灼など）も第一選択としている。低リスクの定義を満たす症例に、尿管部分切除以外の腎温存治療も提示するかを方針に加える
+> - **術後補助化学療法**：RNU 後は腎機能が低下しやすい。POUT では GFR 30〜49 mL/min の症例にゲムシタビン＋カルボプラチンを許容しており、GC が難しい場合の選択肢として方針に明記することを提案
+> - **ニボルマブ術後補助**：CheckMate 274 には UTUC も含まれる（UTUC サブグループでの有効性は明らかでない）
 
 ## 8. 転移性尿路上皮癌 1次（EV＋Pembro、プラチナ併用＋維持アベルマブ）
 
@@ -171,3 +200,4 @@
 | 2026-11 | 骨組み作成 | - |
 | 2026-11-12 | §1〜3（NMIBC）に方針を記入 | 聞き取り第 5 回 |
 | 2026-11-12 | 各薬剤の保険適用を追記、イネレクスゾの国内承認を反映、§4〜5（MIBC）を記入 | 聞き取り第 6 回 |
+| 2026-11-12 | §4 にシスプラチン不適格例の方針、§6 術後補助、§7 UTUC を記入 | 聞き取り第 7 回 |
