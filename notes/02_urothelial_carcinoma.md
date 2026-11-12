@@ -4,7 +4,7 @@
 |---|---|
 | 最終確認日 | 2026-11-12 |
 | 主な参照ガイドライン | [EAU NMIBC 2021 要約（Eur Urol）](https://pubmed.ncbi.nlm.nih.gov/34511303/)／EAU MIBC・転移性／EAU UTUC／NCCN Bladder／日本泌尿器科学会 膀胱癌・腎盂尿管癌診療ガイドライン |
-| ステータス | 聞き取り中（§1〜3 記入済み） |
+| ステータス | 聞き取り中（§1〜5 記入済み） |
 
 **凡例**
 - **方針**（黒字）：自分の現在のコンセンサス
@@ -27,6 +27,9 @@
 - GL（EAU）
   - 2nd TURB の推奨：T1 腫瘍、切除が不完全な場合、筋層が含まれない検体（TaLG と原発 CIS は除く）
   - 術後単回注入の推奨：低リスクと、中間リスクの一部（再発 1 回/年以下かつ EORTC 再発スコア <5）。穿孔や出血が疑われる場合は行わない
+- 保険適用
+  - アラグリオ顆粒剤分包 1.5 g（5-ALA）：「経尿道的膀胱腫瘍切除術時における筋層非浸潤性膀胱癌の可視化」（2017 年承認）。膀胱鏡挿入の 3 時間前に 20 mg/kg を経口投与。重大な副作用に低血圧（[PMDA 資料](https://www.pmda.go.jp/files/000244334.pdf)）
+  - ピラルビシン：膀胱内注入は「膀胱癌（表在性）」で適応あり（添付文書で要確認）
 - 根拠：[単回注入のメタ解析（Sylvester, Eur Urol 2016）](https://pubmed.ncbi.nlm.nih.gov/?term=Sylvester+systematic+review+individual+patient+data+meta-analysis+single+immediate+postoperative+instillation+Eur+Urol+2016)
 
 > [!CAUTION]
@@ -62,6 +65,7 @@
 - （原典で確認のうえ記載予定。2019 年版の後に改訂版が出ており、最新版の分類表を確認する必要がある：[Minds 掲載ページ](https://minds.jcqhc.or.jp/summary/c00532/)）
 
 **参考 ③：BCG の GL 推奨**
+- 保険適用：イムノブラダー膀注用 80 mg（BCG 東京株）は「表在性膀胱癌、膀胱上皮内癌」（添付文書で要確認）。維持療法も保険内で実施可能
 - GL（EAU）：導入 6 回のあと維持療法を行う。中間リスクは 1 年、高リスクは 1〜3 年
 - 根拠：[SWOG 8507（Lamm, J Urol 2000）](https://pubmed.ncbi.nlm.nih.gov/?term=Lamm+maintenance+BCG+immunotherapy+recurrent+Ta+T1+carcinoma+in+situ+SWOG+J+Urol+2000)、[EORTC 30962（Oddens, Eur Urol 2013）](https://pubmed.ncbi.nlm.nih.gov/?term=Oddens+final+results+EORTC+30962+BCG+dose+duration+Eur+Urol+2013)、[BCG は維持療法ありで進展を抑制（Sylvester, J Urol 2002 メタ解析）](https://pubmed.ncbi.nlm.nih.gov/?term=Sylvester+intravesical+bacillus+Calmette-Guerin+reduces+risk+of+progression+meta-analysis+J+Urol+2002)
 
@@ -74,7 +78,7 @@
 
 **方針**
 - できれば膀胱を温存したいが、現状は膀胱全摘を勧めている
-- 新規の膀胱内治療（エドスチラドリン、TAR-200）の効果に期待している
+- 新規の膀胱内治療（エドスチラドリン、イネレクスゾ）の効果に期待している
 
 **参考**
 - GL（EAU）：BCG 不応の高リスク NMIBC には膀胱全摘を推奨。膀胱温存は、全摘を受けられない、または希望しない患者に対する選択肢
@@ -84,27 +88,59 @@
     - 適応：BCG 治療後に残存・再発した CIS を有する高リスク NMIBC で、BCG 再導入の適応とならない患者
     - 成績：国内第 III 相試験で 3 か月時点の CR 率 75%、12 か月時点の膀胱温存率 68%（報道ベース）
     - 海外の根拠：[Boorjian, Lancet Oncol 2021（第 III 相）](https://pubmed.ncbi.nlm.nih.gov/?term=Boorjian+nadofaragene+firadenovec+BCG-unresponsive+non-muscle-invasive+bladder+cancer+phase+3+Lancet+Oncol+2021)
-  - TAR-200（ゲムシタビン膀胱内システム、米国名 INLEXZO）
-    - 米国承認：2025 年 9 月（CIS を有する BCG 不応例）
-    - 国内：2025 年 9 月に申請、希少疾病用医薬品として優先審査（[J&J](https://www.jnj.com/innovativemedicine/japan/press-release/20250908)）
-    - 根拠：SunRISe-1 コホート 2 で CR 率 82.4%、奏効期間の中央値 25.8 か月（[文献](https://pubmed.ncbi.nlm.nih.gov/?term=SunRISe-1+TAR-200+BCG-unresponsive+carcinoma+in+situ)）
+  - イネレクスゾ膀胱内システム 225 mg（ゲムシタビン、TAR-200）
+    - 国内承認：2026 年 8 月（[J&J](https://www.jnj.com/innovativemedicine/japan/press-release/20260824)、[北海道新聞](https://www.hokkaido-np.co.jp/article/1357652/)）
+    - 適応：BCG 治療後に残存・再発した CIS を有する高リスク NMIBC
+    - 用法：1 ユニットを 3 週間膀胱内に留置。最初の 6 か月は 3 週ごとに最大 8 回、その後 18 か月は 12 週ごとに最大 6 回。外来で留置可能
+    - 成績：SunRISe-1 コホート 2 で CR 率 82.4%、奏効期間の中央値 25.8 か月（[文献](https://pubmed.ncbi.nlm.nih.gov/?term=SunRISe-1+TAR-200+BCG-unresponsive+carcinoma+in+situ)）
+    - 注意：重要な特定されたリスクとして尿路感染症（[PMDA RMP](https://www.pmda.go.jp/RMP/www/800155/db21805e-9937-4357-92e6-4ae1ace8425b/800155_42917A1X1020_001RMP.pdf)）
   - その他：[ペムブロリズマブ（KEYNOTE-057）](https://pubmed.ncbi.nlm.nih.gov/?term=Balar+KEYNOTE-057+pembrolizumab+BCG-unresponsive+non-muscle-invasive+bladder+cancer+Lancet+Oncol+2021)（国内では NMIBC の適応なし）
 
 > [!CAUTION]
 > **Claude 提案（2026-11）**
-> - 注視：TAR-200 の国内承認状況（2026 年 11 月時点で承認を確認できていない）
 > - 注視：エドスチラドリンの発売時期と、施設で導入できる体制か（遺伝子治療製品のため取り扱い要件あり）
-> - 提案：エドスチラドリンの適応は「CIS を有する」BCG 不応例。乳頭状腫瘍のみの BCG 不応例は適応外なので、方針では両者を分けて書く
+> - 提案：エドスチラドリンもイネレクスゾも、適応は「CIS を有する」BCG 不応例。乳頭状腫瘍のみの BCG 不応例は適応外なので、方針では両者を分けて書く
+> - 注視：イネレクスゾの薬価収載の時期（2026 年 11 月時点で未確認）
 
 ## 4. MIBC：術前化学療法／周術期 IO（EV＋Pembro 等）
 
 **方針**
-- （未記入）
+- 周術期治療：GC＋デュルバルマブ（術前 GC＋デュルバルマブ → 膀胱全摘 → 術後デュルバルマブ）
+- EV＋ペムブロリズマブの周術期投与：国内で保険適用になれば使う可能性が高い
+
+**参考**
+- GL：EAU は、シスプラチン適格例にシスプラチンを含む術前化学療法を推奨。周術期デュルバルマブ（NIAGARA）は新たな標準の一つ
+- 根拠：[NIAGARA（Powles, NEJM 2024）](https://pubmed.ncbi.nlm.nih.gov/?term=Powles+NIAGARA+perioperative+durvalumab+neoadjuvant+chemotherapy+muscle-invasive+bladder+cancer+NEJM+2024)。無イベント生存のハザード比 0.68
+- 保険適用
+  - イミフィンジ（デュルバルマブ）：MIBC の術前・術後補助療法として 2025 年 9 月に国内承認（[ケアネット](https://www.carenet.com/news/general/carenet/61455)、[PMDA 審査報告書](https://www.pmda.go.jp/drugs/2025/P20251007001/670227000_23000AMX00485_A100_1.pdf)）
+  - パドセブ（EV）＋キイトルーダ（ペムブロリズマブ）の周術期投与：国内では未承認（2026 年 11 月時点で申請・承認を確認できていない）
+
+> [!CAUTION]
+> **Claude 提案（2026-11）：EV＋ペムブロリズマブの周術期投与は、すでに第 III 相試験で有効性が示されている**
+> - シスプラチン不適格例：[KEYNOTE-905/EV-303](https://pubmed.ncbi.nlm.nih.gov/?term=KEYNOTE-905+EV-303+enfortumab+vedotin+pembrolizumab+perioperative+cisplatin-ineligible+muscle-invasive+bladder+cancer)。手術単独と比べて、進行・再発・死亡のリスクが 60% 低下
+> - シスプラチン適格例：[KEYNOTE-B15/EV-304](https://pubmed.ncbi.nlm.nih.gov/?term=KEYNOTE-B15+EV-304+enfortumab+vedotin+pembrolizumab+perioperative+cisplatin-eligible+muscle-invasive+bladder+cancer)。術前 GC と比べて、無イベント生存のリスクが 47%、死亡リスクが 35% 低下（報道ベース）
+> - 海外承認：米国は 2025 年 11 月にシスプラチン不適格例、2026 年 7 月にシスプラチン適格性を問わず承認。EU も 2026 年に承認（[FDA 承認の報道](https://www.pharmaceutical-tech.com/news/us-fda-approves-padcev-plus-keytruda)、[EU 承認の報道](https://www.indianpharmapost.com/news/merck-wins-eu-nod-for-keytruda-padcev-regimen-in-muscle-invasive-bladder-cancer-20743)）
+> - 注視：国内での申請・承認の動き
+> - 確認：シスプラチン不適格例に対する、現在の周術期治療の方針
 
 ## 5. MIBC：膀胱全摘・尿路変向、膀胱温存（三者併用療法）
 
 **方針**
-- （未記入）
+- 術式：RARC＋体腔内尿路変向（ICUD）
+- 尿路変向：主に回腸導管
+- 三者併用療法（最大限の TURBT＋化学放射線療法）による膀胱温存は行っていない。データが不十分と判断しているため。ただし EAU の動向から、膀胱温存には関心がある
+
+**参考**
+- GL：EAU は、RARC を開腹手術と同等の選択肢としている。三者併用療法は、適格例（単発の T2、CIS なし、水腎症なし、TURBT で完全切除できる）で膀胱全摘の代替として提示する
+- 根拠（RARC）：[RAZOR（Parekh, Lancet 2018）](https://pubmed.ncbi.nlm.nih.gov/?term=Parekh+RAZOR+robot-assisted+versus+open+radical+cystectomy+Lancet+2018)、[iROC（Catto, JAMA 2022）](https://pubmed.ncbi.nlm.nih.gov/?term=Catto+iROC+robot-assisted+radical+cystectomy+intracorporeal+urinary+diversion+JAMA+2022)。ICUD を伴う RARC で術後の回復が早い
+- 保険適用：ロボット支援膀胱悪性腫瘍手術は保険適用あり（2018 年〜）
+
+> [!CAUTION]
+> **Claude 提案（2026-11）：三者併用療法の根拠**
+> - [BC2001（James, NEJM 2012）](https://pubmed.ncbi.nlm.nih.gov/?term=James+BC2001+radiotherapy+with+or+without+chemotherapy+muscle-invasive+bladder+cancer+NEJM+2012)：放射線単独に化学療法（5-FU＋マイトマイシン C）を加えると、局所領域の再発が減少
+> - [Zlotta, Lancet Oncol 2023](https://pubmed.ncbi.nlm.nih.gov/?term=Zlotta+radical+cystectomy+versus+trimodality+therapy+muscle-invasive+bladder+cancer+propensity+score+Lancet+Oncol+2023)：多施設の傾向スコア解析で、適格例では三者併用療法と膀胱全摘の癌特異生存・全生存が同等
+> - 留意点：RCT は症例集積が進まず中止されており、根拠は主に観察研究。「データ不十分」という判断には一定の妥当性がある
+> - 提案：適格基準を満たし、膀胱全摘を拒否する、または全摘に耐えられない患者には、選択肢として提示できるよう方針を決めておく
 
 ## 6. 術後補助療法（ニボルマブ等）
 
@@ -134,3 +170,4 @@
 |---|---|---|
 | 2026-11 | 骨組み作成 | - |
 | 2026-11-12 | §1〜3（NMIBC）に方針を記入 | 聞き取り第 5 回 |
+| 2026-11-12 | 各薬剤の保険適用を追記、イネレクスゾの国内承認を反映、§4〜5（MIBC）を記入 | 聞き取り第 6 回 |
