@@ -3,151 +3,170 @@
 | 項目 | 内容 |
 |---|---|
 | 最終確認日 | 2026-11-12 |
-| 主な参照ガイドライン | EAU-EANM-ESTRO-ESUR-ISUP-SIOG 2026（Part I/II）／NCCN Prostate／AUA/ASTRO/SUO／日本泌尿器科学会 前立腺癌診療ガイドライン |
-| ステータス | 初版確定（§5 の RM0 BCR のみ要確認） |
+| 主な参照ガイドライン | [EAU-EANM-ESTRO-ESUR-ISUP-SIOG 2026 Part I](https://www.urotoday.com/recent-abstracts/urologic-oncology/prostate-cancer/170648-eau-eanm-estro-esur-isup-siog-guidelines-on-prostate-cancer-2026-update-part-i-screening-diagnosis-and-local-treatment-with-curative-intent.html)／[Part II](https://www.urotoday.com/recent-abstracts/urologic-oncology/prostate-cancer/170649-eau-eanm-estro-esur-isup-siog-guidelines-on-prostate-cancer-part-ii-2026-update-treatment-of-relapsing-and-metastatic-prostate-cancer.html)／NCCN Prostate／日本泌尿器科学会 前立腺癌診療ガイドライン |
+| ステータス | 初版確定 |
 
-凡例：**方針**＝自分の現在の方針／**GL**＝ガイドライン推奨／⚠ 要確認＝GL・新規エビデンスとの乖離あり
+**凡例**
+- **方針**（黒字）：自分の現在のコンセンサス
+- **参考**：ガイドライン（GL）・根拠・保険適用
+- 赤枠の「Claude 提案」：Claude からの提案・注視事項（リンク付き）。採用したものは「方針」に移す
 
-## 1. スクリーニング・生検適応（PSA、MRI、PSMA-PET の位置づけ）
+※ リンクのうち PubMed 検索リンクは、試験名で検索した結果ページに飛ぶ。通常は先頭が該当論文。
 
-- **方針**：
-  - 生検前 MRI はルーチンで撮影
-  - PI-RADS 4 以上は必ず生検
-  - PI-RADS 3 は PSA 値と PSAD で判断
-    - PSAD 0.15〜0.20 ng/mL/cc 以上：生検を考慮
-    - PSA 10 以下かつ PSAD 低値：3 か月後に PSA を再検してフォロー。理想は S2,3PSA% を併用
-- **GL**：EAU 2026 では、生検前 MRI で不要な生検を減らすことを推奨。生検するなら標的生検と周囲（regional）生検を組み合わせる。PI-RADS 3 では PSA 密度（PSAD）、バイオマーカー、リスクカリキュレーターでリスクを層別化し、生検するかを決める
-- **根拠**：EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines 2026 Part I（Eur Urol, doi:10.1016/j.eururo.2026.04.013）
-- **保険適用（日本）**：S2,3PSA% は PSA 4.0〜10.0 ng/mL が対象で、原則 1 回まで。PSA F/T 比や phi と同時に測った場合は、主なもの 1 つだけ算定（厚労省資料）。phi は 2021 年 11 月から保険適用
-- **備考・施設事情**：
-- ✅ **確認済み（2026-11-12）**：PI-RADS 3 の判断に PSAD を追加
+---
 
+## 1. スクリーニング・生検適応
 
-## 2. 低リスク・中間リスク（監視療法の適応、フォロー間隔）
+**方針**
+- 生検前 MRI はルーチンで撮影
+- PI-RADS 4 以上は必ず生検
+- PI-RADS 3 は PSA と PSAD で判断
+  - PSAD 0.15〜0.20 ng/mL/cc 以上：生検を考慮
+  - PSA 10 以下かつ PSAD 低値：3 か月後に PSA を再検してフォロー。理想は S2,3PSA% を併用
 
-- **方針**：
-  - 対象：GG1、および GG2 のうち陽性コア 2 本以下、陽性率 30% 未満、pattern 4 が 10% 未満、cribriform・IDC なし
-  - フォロー：PSA を 1・3・6・9・12 か月で測り、12 か月目に確認の MRI を撮ってから監視生検
-  - 途中で PSA が上昇したら、まず MRI で再評価し、その結果を踏まえて患者と相談のうえ再生検または根治療法へ移行
-- **GL**：EAU 2026 では、低リスクは監視療法が標準。GG2 でも予後良好な中間リスクの一部は監視療法を考慮できる（Gleason pattern 4 が少ない、PSA <10、≤cT2a、画像と生検で腫瘍量が少ない等。cribriform・IDC は除外）。経過中に PSA や臨床所見が変わったら、まず MRI で再評価してから再生検を判断する
-- **根拠**：EAU Guidelines 2026 Part I
-- **保険適用（日本）**：
-- **備考・施設事情**：
-- ✅ **確認済み（2026-11-12）**：GG2 の追加基準、12 か月時の MRI、PSA 上昇時の MRI 先行の 3 点を採用
+**参考**
+- GL：EAU 2026 は、生検前 MRI で不要な生検を減らすことを推奨。生検するなら標的生検と regional 生検を組み合わせる。PI-RADS 3 では PSAD・バイオマーカー・リスクカリキュレーターでリスクを層別化する
+- 保険適用：S2,3PSA% は PSA 4.0〜10.0 ng/mL が対象で、原則 1 回まで。PSA F/T 比・phi と同時に測った場合は主なもの 1 つだけ算定（[厚労省資料](https://www.mhlw.go.jp/content/12404000/000843973.pdf)）。phi は 2021 年 11 月から保険適用
 
+## 2. 低リスク・中間リスク（監視療法）
 
-## 3. 限局癌の根治療法（RARP／放射線＋ADT期間、局所療法）
+**方針**
+- 対象：GG1、および以下をすべて満たす GG2
+  - 陽性コア 2 本以下
+  - 陽性率 30% 未満
+  - pattern 4 が 10% 未満
+  - cribriform・IDC なし
+- フォロー：PSA を 1・3・6・9・12 か月で測定。12 か月目に確認の MRI を撮ってから監視生検
+- 途中で PSA が上昇したら、まず MRI で再評価し、その結果を踏まえて患者と相談のうえ再生検または根治療法へ
 
-- **方針**：
-  - RARP：切除可能と判断すれば施行
-  - リンパ節郭清：Briganti 2012 ノモグラムで 30% 以上なら拡大郭清（施設基準）。GL の 5% では対象症例が多くなりすぎ、国内の勤務時間の制約上運用できないため（他施設もおおむね 20% 前後）。計算ツール：`tools/briganti2012.html`
-  - 放射線治療：
-    - 予後不良な中間リスク：ADT 6 か月
-    - 高リスク：ADT 2 年（6 か月先行し、RT 後に継続）
-    - 超高リスクへのアビラテロン追加（STAMPEDE）：本来は行いたいが、国内では適応外のため行っていない
-- **GL**：EAU 2026 では、Briganti 2012 で LNI リスク >5%（MRI 標的生検を用いる Briganti 2019 なら >7%）で ePLND を推奨。放射線治療では、予後不良な中間リスクに ADT 4〜6 か月、高リスクに長期 ADT（2〜3 年）を推奨。さらに、超高リスク（cN1、または cT3-4・GS 8-10・PSA ≥40 のうち 2 つ以上）にはアビラテロン 2 年の追加を推奨（STAMPEDE）
-- **根拠**：Briganti A, et al. Eur Urol 2012;61:480-7、STAMPEDE（Attard G, et al. Lancet 2022）、RADAR、EAU 2026 Part I
-- **保険適用（日本）**：アビラテロンの「内分泌療法未治療のハイリスクの予後因子を有する前立腺癌」は LATITUDE（転移例）に基づく効能。非転移例での STAMPEDE 型の使用が適応内かは要確認
-- **備考・施設事情**：
-- ✅ **確認済み（2026-11-12）**：郭清の閾値 30% は施設事情による意図的な基準。ADT の期間は GL と一致。アビラテロン追加は適応外のため見送り
-- 📌 **注視**：国内でのアビラテロンの適応拡大（非転移の高リスク例）
-- 📝 `tools/briganti2012.html` は原著の回帰係数が未登録のため、まだ計算できない
+**参考**
+- GL：EAU 2026 は、低リスクと予後良好な中間リスクの一部（GG2）で監視療法を推奨。PSA の変化だけで積極的治療に移行しない
 
+## 3. 限局癌の根治療法
 
-## 4. 高リスク・局所進行（多モダリティ、ADT＋ARPI）
+**方針**
+- RARP：切除可能と判断すれば施行
+- リンパ節郭清：Briganti 2012 で 30% 以上なら拡大郭清
+  - 施設基準。GL の 5% では対象症例が多くなりすぎ、国内の勤務時間の制約上運用できないため（他施設もおおむね 20% 前後）
+  - 計算ツール：`tools/briganti2012.html`
+- 放射線治療の ADT 併用
+  - 予後不良な中間リスク：6 か月
+  - 高リスク：2 年（6 か月先行し、RT 後に継続）
+- 超高リスクへのアビラテロン追加：本来は行いたいが、国内では適応外のため行っていない
 
-- **方針**：（未記入）
-- **GL**：（未記入）
-- **根拠**：
-- **保険適用（日本）**：
-- **備考・施設事情**：
+**参考**
+- GL：EAU 2026 は、LNI リスクが Briganti 2012 で >5%、Briganti 2019 で >7% の場合に ePLND を推奨。超高リスク（cN1、または cT3-4・GS 8-10・PSA ≥40 のうち 2 つ以上）には ADT＋アビラテロン 2 年
+- 根拠：[Briganti 2012（Eur Urol）](https://pubmed.ncbi.nlm.nih.gov/?term=Briganti+updated+nomogram+lymph+node+invasion+percentage+of+positive+cores+Eur+Urol+2012)、[STAMPEDE（非転移高リスクへのアビラテロン：Attard, Lancet 2022）](https://pubmed.ncbi.nlm.nih.gov/?term=Attard+abiraterone+high-risk+non-metastatic+prostate+cancer+STAMPEDE+meta-analysis+Lancet+2022)
+- 保険適用：アビラテロンの「内分泌療法未治療のハイリスクの予後因子を有する前立腺癌」は LATITUDE（転移例）に基づく効能で、非転移例は適応外
 
-## 5. 術後 PSA 再発・BCR（救済放射線、PSMA-PET、ADT 併用）
+> [!CAUTION]
+> **Claude 提案（2026-11）**
+> - 注視：アビラテロンの非転移高リスク例への国内適応拡大の有無
+> - `tools/briganti2012.html` は原著の回帰係数が未登録で、まだ計算できない
 
-- **方針**：
-  - 断端陽性（RM1）：PSA 0.4 程度を目安に救済放射線を検討。0.2 からの上昇の推移を確認したいため
-  - 断端陰性（RM0）：画像で転移がなければ微小転移と判断し、まず ADT 単独で開始
-  - 病理が GG3 以上なら ADT を併用
-  - PSMA-PET は国内では保険適用外のため使わない
-- **GL**：EAU 2026 では、PSA 再発時は PSA が 0.5 ng/mL を超える前の早期救済放射線（early SRT）を推奨（RADICALS-RT、RAVES、GETUG-AFU 17 は PSA 0.1〜0.2 での早期救済）。ADT 併用は、EAU 高リスク BCR（PSA 倍加時間 <1 年、または pGG 4-5）や PSA 高値例で考慮する（RTOG 9601、GETUG-AFU 16、SPPORT）
-- **根拠**：RADICALS-RT、RAVES、GETUG-AFU 17、RTOG 9601、GETUG-AFU 16、SPPORT（NRG/RTOG 0534）、EAU 2026 Part II
-- **保険適用（日本）**：ロカメッツ（68Ga-PSMA-11）は、プルヴィクトの適応判定用として 2025 年 9 月に承認されたもの。BCR の病期診断としては保険適用外
-- **備考・施設事情**：
-- ✅ **確認済み（2026-11-12）**：RM1 の救済放射線の開始 PSA 0.4 は、上昇の推移を確認するための意図的な設定
-- ⚠ **要確認（2026-11）**：**RM0 の BCR にすぐ ADT 単独**という方針は GL と異なる
-  - EAU は BCR をリスクで分ける。低リスク（PSA 倍加時間 >1 年かつ pGG <4）は経過観察も選択肢
-  - 救済放射線は断端陰性でも有効とされる
-  - ADT 単独の早期開始は、全例には推奨されていない
-  - 高リスク BCR（PSA 倍加時間 ≤9 か月）では、EMBARK 試験でエンザルタミド（＋ADT）が無転移生存期間と全生存期間を改善した（国内での適応は要確認）
+## 4. 高リスク・局所進行
 
+**方針**
+- §3 に準じる（RARP の適応、高リスクでは ADT 2 年）
+
+## 5. 術後 PSA 再発（BCR）
+
+**方針**
+- 断端陽性（RM1）：PSA 0.4 程度で救済放射線を検討。0.2 からの上昇の推移を確認したいため
+- 病理が GG3 以上なら、救済放射線に ADT を併用
+- 断端陰性（RM0）：画像で転移がなければ微小転移と判断し、まず ADT 単独で開始
+- PSMA-PET は国内保険適用外のため使用しない
+
+**参考：EAU の BCR リスク分類**
+
+| | 低リスク BCR | 高リスク BCR |
+|---|---|---|
+| 前立腺全摘後 | PSA 倍加時間 >1 年 **かつ** pGG <4 | PSA 倍加時間 ≤1 年 **または** pGG 4-5 |
+| 放射線治療後 | 再発までの期間 >18 か月 **かつ** 生検 GG <4 | 再発までの期間 ≤18 か月 **または** 生検 GG 4-5 |
+
+- GL の考え方：低リスク BCR は経過観察（PSA モニタリング）も選択肢。高リスク BCR は早期救済放射線、必要に応じて ADT 併用。救済放射線は PSA 0.5 ng/mL 未満での開始を推奨
+- 出典：[EAU BCR リスク分類（Van den Broeck, Eur Urol 2019）](https://pubmed.ncbi.nlm.nih.gov/?term=Van+den+Broeck+biochemical+recurrence+prostate+cancer+EAU+risk+groups+Eur+Urol+2019)、[2019 summary paper（全文 PDF）](https://eprints.whiterose.ac.uk/id/eprint/148704/3/EAU_PCA_GUIDELINES_BCR_FINAL%20summary%20paper%20April%202019.%20docx.pdf)、[北米コホートでの外部検証](https://www.citedrive.com/en/discovery/external-validation-of-the-european-association-of-urology-biochemical-recurrence-risk-groups-to-predict-mortality-after-radical-prostatectomy-or-radiation-therapy-in-a-north-american-cohort/)
+- 救済放射線と ADT 併用の根拠：[RTOG 9601](https://pubmed.ncbi.nlm.nih.gov/?term=Shipley+radiation+with+or+without+antiandrogen+therapy+recurrent+prostate+cancer+NEJM+2017)、[GETUG-AFU 16](https://pubmed.ncbi.nlm.nih.gov/?term=Carrie+GETUG-AFU+16+salvage+radiotherapy+goserelin+Lancet+Oncol)、[SPPORT（NRG/RTOG 0534）](https://pubmed.ncbi.nlm.nih.gov/?term=Pollack+short-term+androgen+deprivation+pelvic+lymph+node+treatment+salvage+radiotherapy+SPPORT+Lancet+2022)
+- 保険適用：ロカメッツ（68Ga-PSMA-11）はプルヴィクトの適応判定用。BCR の病期診断は適応外
+
+> [!CAUTION]
+> **Claude 提案（2026-11）：RM0 の BCR にすぐ ADT 単独で始める方針について**
+> - EAU は BCR をリスクで分け、低リスクは経過観察も選択肢としている。ADT 単独の早期開始は全例には推奨されていない
+> - 救済放射線は断端陰性でも有効とする報告がある。早期救済放射線の RCT のうち、[RADICALS-RT](https://pubmed.ncbi.nlm.nih.gov/?term=Parker+RADICALS-RT+timing+of+radiotherapy+after+radical+prostatectomy+Lancet+2020) と [RAVES](https://pubmed.ncbi.nlm.nih.gov/?term=Kneebone+RAVES+adjuvant+versus+early+salvage+radiotherapy+Lancet+Oncol+2020) は断端陰性（pT3 など）も含む。メタ解析は [ARTISTIC](https://pubmed.ncbi.nlm.nih.gov/?term=Vale+ARTISTIC+adjuvant+or+early+salvage+radiotherapy+meta-analysis+Lancet+2020)。断端の状態を含めた救済放射線の成績予測モデルは [Tendulkar（J Clin Oncol 2016）](https://pubmed.ncbi.nlm.nih.gov/?term=Tendulkar+contemporary+update+multi-institutional+predictive+nomogram+salvage+radiotherapy+J+Clin+Oncol+2016)
+> - 高リスク BCR（PSA 倍加時間 ≤9 か月）では、[EMBARK](https://pubmed.ncbi.nlm.nih.gov/?term=Freedland+EMBARK+enzalutamide+leuprolide+biochemically+recurrent+prostate+cancer+NEJM+2023) でエンザルタミド（単独または＋リュープロレリン）が無転移生存期間を改善した。国内では適応外
+> - 提案：RM0 でも EAU リスク分類で分け、低リスクは経過観察、高リスクは救済放射線±ADT を選択肢として提示する
 
 ## 6. nmCRPC
 
-- **方針**：
-  - ダロルタミドから開始
-  - エンザルタミドは、タラゾパリブとの併用のために残しておく
-  - アビラテロン・エンザルタミド・アパルタミドは、化学療法・Lu-PSMA・Ra-223 を使い切った後に「まだ何か治療をしたい」患者さんのために残しておく
-- **GL**：PSA 倍加時間 ≤10 か月の nmCRPC には、アパルタミド・エンザルタミド・ダロルタミドのいずれかを推奨（3 剤とも全生存期間を改善）。ARPI の後に別の ARPI へ切り替えることは、交差耐性のため推奨しない
-- **根拠**：SPARTAN、PROSPER、ARAMIS
-- **保険適用（日本）**：3 剤とも nmCRPC に適応あり
-- **備考・施設事情**：ダロルタミドは中枢神経系の有害事象や転倒が少なく、高齢者で使いやすい
-- ✅ **確認済み（2026-11-12）**：ARPI の連続使用は、交差耐性を理解したうえでの意図的な温存（上記の理由）
+**方針**
+- ダロルタミドから開始
+- エンザルタミドは、タラゾパリブとの併用のために残しておく
+- アビラテロン・エンザルタミド・アパルタミドは、化学療法・Lu-PSMA・Ra-223 を使い切った後に、さらに治療を希望する患者さんのために残しておく（交差耐性は理解したうえでの意図的な温存）
 
+**参考**
+- GL：PSA 倍加時間 ≤10 か月の nmCRPC には ARPI 3 剤いずれかを推奨（3 剤とも全生存期間を改善）。ARPI の後に別の ARPI へ切り替えることは推奨しない
+- 根拠：[SPARTAN](https://pubmed.ncbi.nlm.nih.gov/?term=Smith+SPARTAN+apalutamide+nonmetastatic+castration-resistant+NEJM+2018)、[PROSPER](https://pubmed.ncbi.nlm.nih.gov/?term=Hussain+PROSPER+enzalutamide+nonmetastatic+castration-resistant+NEJM+2018)、[ARAMIS](https://pubmed.ncbi.nlm.nih.gov/?term=Fizazi+ARAMIS+darolutamide+nonmetastatic+castration-resistant+NEJM+2019)
+- 保険適用：3 剤とも nmCRPC に適応あり
+- 備考：ダロルタミドは中枢神経系の有害事象や転倒が少ない
 
-## 7. mHSPC（ADT＋ARPI／トリプレット、局所放射線、低・高容量の扱い）
+## 7. mHSPC
 
-- **方針**：
-  - 骨以外の臓器転移がなければ、基本は ADT＋ARPI
-  - トリプレット（ADT＋ARPI＋ドセタキセル）は、primary Gleason pattern 5 または臓器転移がある場合に考慮
-  - CHAARTED の高腫瘍量だけではトリプレットの基準として不十分と考える（GL との意図的な違い）
-  - 低腫瘍量・オリゴ転移への放射線（前立腺照射・MDT）は、PSA の推移と画像フォローの結果をみて判断
-- **GL**：EAU 2026 では、全身状態が保たれていれば全例に ADT＋ARPI を推奨。トリプレット（ダロルタミド/アビラテロン＋ドセタキセル）は、ドセタキセルに耐えられる de novo 転移例、特に高腫瘍量が対象。低腫瘍量の de novo 例には前立腺への放射線照射を推奨
-- **根拠**：ARASENS、PEACE-1、STAMPEDE（arm H）、CHAARTED（腫瘍量の定義）、EAU 2026 Part II
-- **保険適用（日本）**：ダロルタミドの「遠隔転移を有する前立腺癌」は、2023 年承認時点ではドセタキセル併用に限られる。ARANOTE 試験に基づく ADT＋ダロルタミド（ドセタキセルなし）は、2026 年 3 月に関連通知の報道があるが、承認内容は未確認
-- **備考・施設事情**：
-- ✅ **確認済み（2026-11-12）**：トリプレットの基準は現行どおり（高腫瘍量は採用しない）。低腫瘍量・オリゴ転移への放射線は、PSA の推移と画像で個別に判断
-- 📌 **注視**：ARANOTE に基づくダロルタミドの国内適応追加の有無（次回の月次更新で確認）
+**方針**
+- 骨以外の臓器転移がなければ、基本は ADT＋ARPI
+- トリプレット（ADT＋ARPI＋ドセタキセル）は、primary Gleason pattern 5 または臓器転移がある場合に考慮
+  - CHAARTED の高腫瘍量だけでは基準として不十分と考える（GL との意図的な違い）
+- 低腫瘍量・オリゴ転移への放射線（前立腺照射・MDT）は、PSA の推移と画像フォローの結果をみて判断
 
+**参考**
+- GL：EAU 2026 は、全身状態が保たれていれば全例に ADT＋ARPI を推奨。トリプレットはドセタキセルに耐えられる de novo 転移例、特に高腫瘍量に推奨。低腫瘍量の de novo 例には前立腺照射を推奨
+- 根拠：[ARASENS](https://pubmed.ncbi.nlm.nih.gov/?term=Smith+ARASENS+darolutamide+docetaxel+metastatic+hormone-sensitive+NEJM+2022)、[PEACE-1](https://pubmed.ncbi.nlm.nih.gov/?term=Fizazi+PEACE-1+abiraterone+radiotherapy+de+novo+metastatic+castration-sensitive+Lancet+2022)、[CHAARTED](https://pubmed.ncbi.nlm.nih.gov/?term=Sweeney+CHAARTED+chemohormonal+therapy+metastatic+hormone-sensitive+NEJM+2015)、[STAMPEDE arm H（低腫瘍量への前立腺照射）](https://pubmed.ncbi.nlm.nih.gov/?term=Parker+STAMPEDE+radiotherapy+to+the+primary+tumour+newly+diagnosed+metastatic+prostate+cancer+Lancet+2018)
+- 保険適用：ダロルタミドの mHSPC はドセタキセル併用で承認（2023 年）
 
-## 8. mCRPC（シーケンス、PARP 阻害薬・遺伝子検査、Lu-PSMA、ドセタキセル/カバジタキセル）
+> [!CAUTION]
+> **Claude 提案（2026-11）**
+> - 注視：[ARANOTE](https://pubmed.ncbi.nlm.nih.gov/?term=Saad+ARANOTE+darolutamide+androgen-deprivation+therapy+metastatic+hormone-sensitive+J+Clin+Oncol) に基づく ADT＋ダロルタミド（ドセタキセルなし）の国内適応追加の有無。2026 年 3 月に関連通知の報道があるが、内容は未確認
 
-- **方針**：
-  - BRCA 検査は、mCRPC になりそうな時期に提出
-  - 検査は myChoice を BRACAnalysis より優先
-  - BRCA 陽性なら PARP 阻害薬を先に使う
-  - Lu-PSMA は、患者の希望があれば早めの時期に
-  - BRCA 陰性例の ARPI 使用後 CRPC 1 次治療：タラゾパリブ＋エンザルタミド、ドセタキセル、Lu-PSMA を提示して相談
-  - 画像で局所病変のみの場合は、RARP や放射線治療も考慮
-- **GL**：EAU 2026 では、転移性前立腺癌に生殖細胞系列の遺伝子検査を推奨し、腫瘍組織の HRR 検査も早めに考慮する。BRCA 変異例では PARP 阻害薬（単剤：PROfound、ARPI との併用：PROpel / TALAPRO-2）を使う。ARPI の後に別の ARPI へ切り替えることは交差耐性のため推奨しない。Lu-PSMA は、ARPI とタキサン両方の治療歴がある PSMA 陽性例が対象（VISION）。タキサン未使用例のデータもある（PSMAfore）
-- **根拠**：PROfound、PROpel、TALAPRO-2、VISION、PSMAfore、EAU 2026 Part II
-- **保険適用（日本）**：
-  - myChoice：腫瘍組織で検査し、BRCA1/2 と GIS を評価する。前立腺癌（CRPC）で保険償還ありと Myriad が発表（PMDA 添付文書で適応を要確認）
-  - BRACAnalysis：生殖細胞系列（血液）の検査
-  - プルヴィクト（Lu-PSMA）：2025 年 9 月承認（PSMA 陽性 mCRPC）。PSMA-PET 用の診断薬ロカメッツと同時承認。2025 年 11 月に薬価収載
-- **備考・施設事情**：
-- 📌 **注視（2026-11）**：タラゾパリブ＋エンザルタミドは、2026 年 3 月に HRR 遺伝子変異の有無を問わない mCRPC へ適応拡大された。ただし TALAPRO-2 は CRPC 1 次で ARPI 未治療の症例が中心で、HSPC 期に ARPI を使った症例でのデータは限られる
-- 📝 **補足**：myChoice は組織検査で、陽性でも変異が体細胞由来か生殖細胞系列由来かは区別できない。陽性時は BRACAnalysis と遺伝カウンセリングで、生殖細胞系列かどうかを確認すると血縁者への対応につながる。保存検体が古いと検査に失敗しやすい
-- ⚠ **要確認（2026-11）**：
-  - ✅ 1・2 は記載内容のまま了承（2026-11-12）
-  1. **検査のタイミング**：mHSPC の時点で提出しておけば、CRPC 1 次から PARP 阻害薬＋ARPI 併用を選べる。GL も早期の検査を推奨している
-  2. **「Lu-PSMA を早めに」の適応範囲**：国内添付文書で、前治療（ARPI、タキサン）の要件を確認する必要あり。あわせて施設で PSMA-PET を撮れる体制か
+## 8. mCRPC
 
+**方針**
+- BRCA 検査は、mCRPC になりそうな時期に提出。myChoice を BRACAnalysis より優先
+- BRCA 陽性：PARP 阻害薬を先に使う
+- BRCA 陰性（ARPI 使用後の CRPC 1 次治療）：タラゾパリブ＋エンザルタミド、ドセタキセル、Lu-PSMA を提示して相談
+- Lu-PSMA は、患者の希望があれば早めの時期に
+- 画像で局所病変のみの場合は、RARP や放射線治療も考慮
 
-## 9. 骨関連事象・支持療法（骨修飾薬、ADT 有害事象管理）
+**参考**
+- GL：EAU 2026 は、転移性前立腺癌に生殖細胞系列の遺伝子検査を推奨し、腫瘍組織の HRR 検査も早めに考慮する
+- 根拠：[PROfound](https://pubmed.ncbi.nlm.nih.gov/?term=de+Bono+PROfound+olaparib+metastatic+castration-resistant+NEJM+2020)、[PROpel](https://pubmed.ncbi.nlm.nih.gov/?term=Clarke+PROpel+abiraterone+olaparib+metastatic+castration-resistant+NEJM+Evidence)、[TALAPRO-2](https://pubmed.ncbi.nlm.nih.gov/?term=Agarwal+TALAPRO-2+talazoparib+enzalutamide+Lancet+2023)、[VISION](https://pubmed.ncbi.nlm.nih.gov/?term=Sartor+VISION+lutetium-177-PSMA-617+metastatic+castration-resistant+NEJM+2021)、[PSMAfore](https://pubmed.ncbi.nlm.nih.gov/?term=Morris+PSMAfore+177Lu-PSMA-617+taxane-naive+Lancet+2024)
+- 保険適用
+  - myChoice：腫瘍組織で BRCA1/2 と GIS を評価。CRPC で保険償還あり（[Myriad](https://investor.myriad.com/news-releases/news-release-detail/27171/)、[PMDA 添付文書](https://www.pmda.go.jp/PmdaSearch/bookSearch/01/14595057551023)）
+  - タラゾパリブ＋エンザルタミド：2024 年 1 月に BRCA 変異陽性 mCRPC で承認。2026 年 3 月に HRR 変異の有無を問わない mCRPC へ拡大（[ケアネット](https://www.carenet.com/news/general/carenet/62540)、[PMDA](https://www.pmda.go.jp/PmdaSearch/iyakuDetail/GeneralList/4291081M1022)）
+  - プルヴィクト（Lu-PSMA）：2025 年 9 月承認、11 月薬価収載。ロカメッツと同時承認（[Novartis](https://www.novartis.com/jp-ja/news/media-releases/prkk20250919)）
+- 補足：myChoice は組織検査のため、体細胞変異か生殖細胞系列変異かを区別できない。陽性時は BRACAnalysis と遺伝カウンセリングで生殖細胞系列かどうかを確認する。保存検体が古いと検査に失敗しやすい
 
-- **方針**：
-  - ADT が 6 か月以上になる場合は骨密度を測定し、骨粗鬆症の危険域など必要があれば骨修飾薬を使う
-  - 骨転移への骨修飾薬は CRPC になるまで使わない
-- **GL**：ADT 中は骨折リスクの評価と骨保護療法を推奨。mHSPC への骨修飾薬（ゾレドロン酸）には骨関連事象を減らす効果がなく（CALGB 90202、STAMPEDE）、使用は mCRPC の骨転移例で推奨
-- **根拠**：CALGB 90202、Fizazi K, et al. Lancet 2011（デノスマブ vs ゾレドロン酸）、EAU 2026 Part II
-- **保険適用（日本）**：デノスマブは骨転移にはランマーク 120 mg、骨粗鬆症にはプラリア 60 mg と、用量・製剤が異なる
-- **備考・施設事情**：
-- ✅ GL と一致（2026-11-12）。ラジウム 223 を使う場合は骨修飾薬の併用が推奨される（ERA 223 試験でアビラテロン併用時に骨折が増加）
+> [!CAUTION]
+> **Claude 提案（2026-11）**
+> - 注視：TALAPRO-2 は CRPC 1 次で ARPI 未治療の症例が中心。HSPC 期に ARPI を使った症例でのデータは限られる
+> - 注視：Lu-PSMA を早めに使う場合は、国内添付文書の前治療要件（ARPI・タキサン）と、施設で PSMA-PET を撮れる体制かを確認
 
+## 9. 骨関連事象・支持療法
+
+**方針**
+- ADT が 6 か月以上になる場合は骨密度を測定し、骨粗鬆症の危険域など必要があれば骨修飾薬を使う
+- 骨転移への骨修飾薬は CRPC になるまで使わない
+
+**参考**
+- GL：ADT 中は骨折リスクを評価し、骨保護療法を行う。mHSPC での骨修飾薬に骨関連事象の予防効果はなく、使用は mCRPC の骨転移例で推奨（GL と一致）
+- 根拠：[CALGB 90202](https://pubmed.ncbi.nlm.nih.gov/?term=Smith+CALGB+90202+zoledronic+acid+castration-sensitive+bone+metastases+J+Clin+Oncol+2014)、[デノスマブ vs ゾレドロン酸（Fizazi, Lancet 2011）](https://pubmed.ncbi.nlm.nih.gov/?term=Fizazi+denosumab+versus+zoledronic+acid+bone+metastases+castration-resistant+Lancet+2011)、[ERA 223](https://pubmed.ncbi.nlm.nih.gov/?term=Smith+ERA+223+radium-223+abiraterone+Lancet+Oncol+2019)
+- 保険適用：デノスマブは骨転移にランマーク 120 mg、骨粗鬆症にプラリア 60 mg
+- 備考：Ra-223 を使う場合は骨修飾薬の併用が推奨される（ERA 223 でアビラテロン併用時に骨折が増加）
+
+---
 
 ## 改訂履歴
 
 | 日付 | 変更点 | 根拠 |
 |---|---|---|
 | 2026-11 | 骨組み作成 | - |
-| 2026-11-12 | §1 診断、§2 監視療法、§7 mHSPC、§8 mCRPC の方針を記入。GL との乖離を ⚠ で注記 | 聞き取り、EAU 2026 |
+| 2026-11-12 | 全セクションに方針を記入（聞き取り第 1〜4 回） | 聞き取り、EAU 2026 |
+| 2026-11-12 | 表記を変更：方針（黒字）と Claude 提案（赤枠・リンク付き）に分離。§5 に EAU の BCR リスク分類と救済放射線の根拠を追加 | 聞き取り第 5 回 |
