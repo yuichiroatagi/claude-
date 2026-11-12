@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briganti 2012 LNI計算</title>
+<style>
+:root{--bg:#fafaf9;--fg:#1c1917;--muted:#78716c;--card:#fff;--line:#e7e5e4;--accent:#1d4ed8;--warn:#b45309;--warnbg:#fef3c7;--hi:#b91c1c}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1917;--fg:#f5f5f4;--muted:#a8a29e;--card:#292524;--line:#44403c;--accent:#93c5fd;--warn:#fcd34d;--warnbg:#422006;--hi:#fca5a5}}
+:root[data-theme="dark"]{--bg:#1c1917;--fg:#f5f5f4;--muted:#a8a29e;--card:#292524;--line:#44403c;--accent:#93c5fd;--warn:#fcd34d;--warnbg:#422006;--hi:#fca5a5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Hiragino Sans",sans-serif}
+main{max-width:520px;margin:0 auto;padding:20px 16px 40px}h1{font-size:1.25rem;margin:0 0 4px}.sub{color:var(--muted);font-size:.85rem;margin:0 0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+label{display:block;font-size:.85rem;color:var(--muted);margin:10px 0 4px}input,select{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+.result{text-align:center}.pct{font-size:2.6rem;font-weight:700;font-variant-numeric:tabular-nums}.verdict{font-weight:600}.hi{color:var(--hi)}.ok{color:var(--accent)}
+.warn{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:12px;font-size:.85rem;margin-bottom:14px}
+small{color:var(--muted);font-size:.78rem;display:block;margin-top:10px}
+</style>
+</head>
+<body>
+<main>
+<h1>Briganti 2012 ノモグラム</h1>
+<p class="sub">拡大リンパ節郭清（ePLND）時のリンパ節転移（LNI）予測確率</p>
+
+<div class="warn" id="nocoef" hidden>係数がまだ登録されていません。原著（Briganti A, et al. Eur Urol 2012;61:480-7）の回帰式を下の <code>COEF</code> に入力するまで計算できません。推測した値は入れていません。</div>
+
+<div class="card">
+<label for="psa">術前 PSA（ng/mL）</label><input id="psa" type="number" inputmode="decimal" step="0.1" min="0" value="8">
+<label for="ct">臨床病期</label>
+<select id="ct"><option value="cT1c">cT1c</option><option value="cT2a">cT2a</option><option value="cT2b">cT2b</option><option value="cT2c">cT2c</option><option value="cT3">cT3</option></select>
+<label for="pg">生検 primary Gleason</label><select id="pg"><option value="3">≤3</option><option value="4">4</option><option value="5">5</option></select>
+<label for="sg">生検 secondary Gleason</label><select id="sg"><option value="3">≤3</option><option value="4">4</option><option value="5">5</option></select>
+<label for="pc">陽性コア率（%）</label><input id="pc" type="number" inputmode="decimal" step="1" min="0" max="100" value="30">
+<label for="th">郭清の閾値（%）</label><input id="th" type="number" inputmode="decimal" step="1" min="0" max="100" value="30">
+</div>
+
+<div class="card result">
+<div class="pct" id="out">—</div>
+<div class="verdict" id="verdict"></div>
+<small>閾値：自施設 30%（ノート §3）／EAU 推奨 5%（Briganti 2012）。結果は意思決定の補助であり、最終判断は臨床所見と併せて行うこと。</small>
+</div>
+</main>
+<script>
+// 原著の回帰式をここに入力する。null のままでは計算しない。
+// logit = intercept + psa*PSA + ct[病期] + pg[primary] + sg[secondary] + pc*陽性コア率(%)
+const COEF = null;
+/* 例（値は原著から転記すること）:
+const COEF = { intercept: _, psa: _, pc: _,
+  ct: { cT1c: 0, cT2a: _, cT2b: _, cT2c: _, cT3: _ },
+  pg: { "3": 0, "4": _, "5": _ },
+  sg: { "3": 0, "4": _, "5": _ } };
+*/
+const $ = id => document.getElementById(id);
+function calc(){
+  if(!COEF){ $('nocoef').hidden=false; $('out').textContent='—'; $('verdict').textContent='係数未登録'; return; }
+  const psa=parseFloat($('psa').value), pc=parseFloat($('pc').value), th=parseFloat($('th').value);
+  if([psa,pc,th].some(isNaN)){ $('out').textContent='—'; $('verdict').textContent='入力を確認してください'; return; }
+  const z=COEF.intercept+COEF.psa*psa+COEF.ct[$('ct').value]+COEF.pg[$('pg').value]+COEF.sg[$('sg').value]+COEF.pc*pc;
+  const p=100/(1+Math.exp(-z));
+  $('out').textContent=p.toFixed(1)+'%';
+  const v=$('verdict'); const go=p>=th;
+  v.textContent=go?`閾値 ${th}% 以上：ePLND を推奨`:`閾値 ${th}% 未満：ePLND 省略を検討`;
+  v.className='verdict '+(go?'hi':'ok');
+}
+document.querySelectorAll('input,select').forEach(e=>e.addEventListener('input',calc));
+calc();
+</script>
+</body>
+</html>
