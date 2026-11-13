@@ -4,7 +4,7 @@
 |---|---|
 | 最終確認日 | 2026-11-12 |
 | 主な参照ガイドライン | [EAU NMIBC 2021 要約（Eur Urol）](https://pubmed.ncbi.nlm.nih.gov/34511303/)／EAU MIBC・転移性／EAU UTUC／NCCN Bladder／日本泌尿器科学会 膀胱癌・腎盂尿管癌診療ガイドライン |
-| ステータス | 聞き取り中（§1〜7 記入済み） |
+| ステータス | 初版（全セクション記入済み） |
 
 **凡例**
 - **方針**（黒字）：自分の現在のコンセンサス
@@ -184,12 +184,39 @@
 ## 8. 転移性尿路上皮癌 1次（EV＋Pembro、プラチナ併用＋維持アベルマブ）
 
 **方針**
-- （未記入）
+- 第一選択は EV＋ペムブロリズマブ
+- プラチナ併用レジメンを選ぶ機会はほとんどない
+
+**参考**
+- GL：EAU は、1 次治療の第一選択として EV＋ペムブロリズマブを推奨（GL と一致）。EV が使えない場合は、プラチナ併用化学療法を行い、病勢制御が得られればアベルマブ維持療法へ進む
+- 根拠：[EV-302/KEYNOTE-A39（Powles, NEJM 2024）](https://pubmed.ncbi.nlm.nih.gov/?term=Powles+EV-302+enfortumab+vedotin+pembrolizumab+untreated+advanced+urothelial+cancer+NEJM+2024)（化学療法と比べて PFS・OS ともに約 2 倍）、[JAVELIN Bladder 100（Powles, NEJM 2020）](https://pubmed.ncbi.nlm.nih.gov/?term=Powles+JAVELIN+Bladder+100+avelumab+maintenance+advanced+urothelial+carcinoma+NEJM+2020)
+- 保険適用：パドセブ＋キイトルーダ併用は、根治切除不能な尿路上皮癌の 1 次治療として 2024 年 9 月に承認（[ケアネット](https://www.carenet.com/news/general/carenet/59596)）。同時に、プラチナ製剤を含む化学療法を選べない場合に限ってペムブロリズマブ単独も承認
+
+> [!CAUTION]
+> **Claude 提案（2026-11）**
+> - EV が使いにくい症例を方針に明記する：既存の末梢神経障害（Grade 2 以上）、コントロール不良の糖尿病、重度の皮膚障害の既往など。この場合はプラチナ併用化学療法 → アベルマブ維持療法
 
 ## 9. 転移性 2次以降（FGFR 阻害薬、ADC、遺伝子検査）
 
 **方針**
-- （未記入）
+- FGFR 阻害薬（エルダフィチニブ）と HER2 標的 ADC：本来は早めに使うのが望ましいと考えるが、保険適用上、現状は 2 次治療以降
+- がんゲノムプロファイリング（CGP）検査：1 次治療で PD と判断した時点で提出（保険適用上の制約のため）。可能なら初回から出したい
+
+**参考**
+- GL：EAU は、EV＋ペムブロリズマブ後の 2 次治療としてプラチナ併用化学療法を推奨。FGFR3 遺伝子異常があればエルダフィチニブを推奨
+- 根拠：[THOR コホート 1（Loriot, NEJM 2023）](https://pubmed.ncbi.nlm.nih.gov/?term=Loriot+THOR+erdafitinib+FGFR-altered+metastatic+urothelial+carcinoma+NEJM+2023)（化学療法と比べて死亡リスク 36% 低下、OS 中央値 12.1 か月 vs 7.8 か月）
+- 保険適用
+  - バルバーサ（エルダフィチニブ）：「がん化学療法後に増悪した FGFR3 遺伝子変異又は融合遺伝子を有する根治切除不能な尿路上皮癌」（2024 年 12 月承認、2025 年 7 月発売。[J&J](https://www.jnj.com/innovativemedicine/japan/press-release/20250716)、[薬事日報](https://www.yakuji.co.jp/?p=120942)）
+  - ディシタマブ ベドチン（HER2 標的 ADC）：国内未承認。国内で第 III 相試験が進行中（[jRCT2061240094](https://jrct.mhlw.go.jp/latest-detail/jRCT2061240094)）
+  - エンハーツ（トラスツズマブ デルクステカン）：HER2 陽性固形がんの適応で国内申請の報道あり（[OncLive](https://www.onclive.com/view/japanese-approval-sought-for-t-dxd-in-her2-advanced-solid-tumors)）。承認状況は未確認
+  - CGP 検査：標準治療がない、または標準治療が終了した（終了見込みを含む）固形がんが対象
+
+> [!CAUTION]
+> **Claude 提案（2026-11）**
+> - **EV＋ペムブロリズマブ後の 2 次治療にプラチナ併用化学療法を加える**：EAU では 2 次治療の基本。FGFR3 陰性・HER2 陰性の症例の選択肢として方針に明記する
+> - **CGP 検査の提出時期**：保険上は「標準治療終了見込み」の時点でも提出できる。1 次治療中に効果が落ちてきた段階で提出すれば、PD 確定時に FGFR3 の結果が出ていて、2 次治療の選択が遅れない
+> - 注視：エンハーツの HER2 陽性固形がん適応の国内承認状況（根拠：[DESTINY-PanTumor02（Meric-Bernstam, J Clin Oncol 2024）](https://pubmed.ncbi.nlm.nih.gov/?term=Meric-Bernstam+DESTINY-PanTumor02+trastuzumab+deruxtecan+HER2-expressing+solid+tumors+J+Clin+Oncol+2024)）
+> - 注視：HER2 陽性尿路上皮癌の 1 次治療でのディシタマブ ベドチン＋抗 PD-1 抗体（[RC48-C016、ケアネット](https://www.carenet.com/news/journal/carenet/61689)）
 
 ---
 
@@ -201,3 +228,4 @@
 | 2026-11-12 | §1〜3（NMIBC）に方針を記入 | 聞き取り第 5 回 |
 | 2026-11-12 | 各薬剤の保険適用を追記、イネレクスゾの国内承認を反映、§4〜5（MIBC）を記入 | 聞き取り第 6 回 |
 | 2026-11-12 | §4 にシスプラチン不適格例の方針、§6 術後補助、§7 UTUC を記入 | 聞き取り第 7 回 |
+| 2026-11-13 | §8〜9（転移性）を記入 | 聞き取り第 8 回 |
